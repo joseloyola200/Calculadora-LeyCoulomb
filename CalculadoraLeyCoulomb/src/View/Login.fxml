@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LoginController">
+   <children>
+      <VBox minHeight="-Infinity" minWidth="-Infinity" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="78.0">
+               <children>
+                  <ImageView fx:id="minimizar" fitHeight="20.0" fitWidth="20.0" onMouseClicked="#minimizar_click" pickOnBounds="true" preserveRatio="true">
+                     <HBox.margin>
+                        <Insets right="15.0" />
+                     </HBox.margin>
+                     <image>
+                        <Image url="@../sourc/img/minimizar.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fx:id="cerrar" fitHeight="20.0" fitWidth="20.0" onMouseClicked="#cerrar_click" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../sourc/img/cerrar.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <HBox.margin>
+                        <Insets right="15.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+            </HBox>
+            <Label id="brandName" alignment="CENTER" contentDisplay="CENTER" prefWidth="250.0" styleClass="brandName" text="Calculadora Ley de Coulomb" wrapText="true">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="25.0" />
+               </VBox.margin>
+            </Label>
+            <HBox>
+               <children>
+                  <Label text="Usuario: ">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txfUsuario" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox>
+               <children>
+                  <Label text="Contraseña: ">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <PasswordField fx:id="txfPassword" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="5.0" />
+               </VBox.margin>
+            </HBox>
+            <Label fx:id="lblMensaje">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </Label>
+            <HBox alignment="CENTER">
+               <children>
+                  <Button fx:id="LogIn" mnemonicParsing="false" onAction="#LogIn_click" text="Iniciar Sesion">
+                     <HBox.margin>
+                        <Insets right="20.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="Clean" mnemonicParsing="false" onAction="#Clean_click" text="Limpiar" />
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>

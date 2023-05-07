@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="400.0" stylesheets="@../sourc/css/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.EjerciciosController">
+   <children>
+      <ScrollPane layoutX="41.0" layoutY="214.0" prefHeight="800.0" prefWidth="400.0" styleClass="scroll" stylesheets="@../sourc/css/style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <content>
+            <VBox alignment="TOP_CENTER" prefHeight="840.0" prefWidth="385.0" stylesheets="@../sourc/css/style.css">
+               <children>
+                  <Label prefWidth="365.0" text="Ejemplo 1">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="Tenemos dos cargas eléctrica, una de +3c y una de -2c, separadas a una distancia de 3m. Para calcular la fuerza que existe entre ambas cargas es necesario multiplicar la constante K por el producto de ambas cargas. Como se observa en la imagen, se ha obtenido una fuerza negativa.Ejemplo ilustrado de cómo aplicar la ley de Coulomb:" wrapText="true">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="250.0" fitWidth="365.0" pickOnBounds="true" preserveRatio="true">
+                     <VBox.margin>
+                        <Insets bottom="30.0" />
+                     </VBox.margin>
+                     <image>
+                        <Image url="@../sourc/img/ejemplo01.jpg" />
+                     </image></ImageView>
+                  <Label prefWidth="365.0" text="Ejemplo 2">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="Tenemos una carga de 6 x 10-6C (q1) que se encuentra a 2m de distancia de una carga de -4 x 10-6C (q2). Entonces, ¿cuál es la magnitud de fuerza entre estas dos cargas?" wrapText="true">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="150.0" fitWidth="280.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../sourc/img/ejemplo2.1.jpg" />
+                     </image>
+                     <VBox.margin>
+                        <Insets bottom="15.0" top="15.0" />
+                     </VBox.margin></ImageView>
+                  <Label prefWidth="365.0" text="a. Se multiplican los coeficientes: 9 x 6 x 4= 216." wrapText="true">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label text="b. Se suman de manera algebraica los exponentes: -6 y -6 = -12. Ahora -12 + 9 = -3." wrapText="true">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="15.0" top="15.0" />
+                     </VBox.margin>
+                  </Label>
+                  <ImageView fitHeight="150.0" fitWidth="125.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../sourc/img/ejemplo2.2.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label prefWidth="365.0" text="Respuesta: F = 54 x 10-3 N." wrapText="true">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </VBox>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

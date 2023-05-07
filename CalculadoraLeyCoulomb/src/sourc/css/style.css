@@ -1,0 +1,77 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 28 abr. 2023, 00:16:27
+    Author     : Loyola01
+*/
+.fondo{
+    -fx-background-size: 1200 900;
+    -fx-background-radius: 18 18 18 18;
+    -fx-border-radius: 18 18 18 18;
+    
+}
+/*  BEGINNING OF TOP BAR     */
+.topBar{
+    -fx-background-radius: 18 18 0 0;
+    -fx-border-radius: 18 18 0 0;
+    -fx-background-color: #B81F33;
+}
+.brandName{
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-font-size: 16;
+}
+/*  ENDING OF TOP BAR     */
+
+/*  BEGINNING OF SIDE BAR     */
+.sideBar{
+    -fx-background-color: #FFFFFF;
+}
+.button{
+    -fx-background-radius:0;
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #808080;
+    -fx-font-weight: bold;
+    -fx-font-size: 16;
+}
+.button:hover{
+    -fx-background-color: #808080;
+    -fx-text-fill: #FFFFFF;
+}
+.buttonCerrar{
+    -fx-background-radius:0;
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #D01A49;
+    -fx-font-weight: bold;
+    -fx-font-size: 16;
+}
+.buttonCerrar:hover{
+    -fx-background-color: #D01A49;
+    -fx-text-fill: #FFFFFF;
+}
+.logOut{
+    
+}
+.logOut:hover{
+    
+}
+/*  ENDING OF SIDE BAR     */
+
+.textArea{
+    -fx-text-fill: #000000;
+    -fx-font-size: 14;
+    -fx-padding: 0 0 0 0;
+    -fx-border-style: none;
+    -fx-border-insets: 0;
+    -fx-text-box-border: transparent;
+    -fx-background-color: transparent;
+    -fx-text-box-border: transparent;
+}
+
+
+.scroll{
+    -fx-background-color:transparent;
+    -fx-focus-color: transparent;
+}

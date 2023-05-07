@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="400.0" styleClass="scroll" stylesheets="@../sourc/css/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.TeoriaController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="750.0" prefWidth="385.0">
+         <children>
+            <VBox alignment="TOP_CENTER" layoutX="30.0" layoutY="40.0" prefHeight="750.0" prefWidth="355.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label text="La ley de Coulomb se emplea en el área de la física para calcular la fuerza eléctrica que actúa entre dos cargas en reposo." wrapText="true">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="15.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="A partir de esta ley se puede predecir cuál será la fuerza electrostática de atracción o repulsión existente entre dos partículas según su carga eléctrica y la distancia que existe entre ambas." wrapText="true">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="15.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label prefWidth="365.0" text="Esta ley se representa de la siguiente manera:" wrapText="true">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="15.0" />
+                     </VBox.margin>
+                  </Label>
+                  <ImageView fitHeight="115.0" fitWidth="310.0" pickOnBounds="true" preserveRatio="true">
+                     <VBox.margin>
+                        <Insets bottom="15.0" />
+                     </VBox.margin>
+                     <image>
+                        <Image url="@../sourc/img/imagen1_sm.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label text="F = fuerza eléctrica de atracción o repulsión en Newtons (N). Las cargas iguales se repelen y las cargas opuestas se atraen." wrapText="true">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="k = es la constante de Coulomb o constante eléctrica de proporcionalidad. La fuerza varía según la permitividad eléctrica (ε) del medio, bien sea agua, aire, aceite, vacío, entre otros." wrapText="true">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="q = valor de las cargas eléctricas medidas en Coulomb (C)." wrapText="true">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="r = distancia que separa a las cargas y que es medida en metros (m)." wrapText="true">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="El valor de la constante de Coulomb en el Sistema Internacional de medidas es:" wrapText="true">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../sourc/img/imagen6_sm.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding></AnchorPane>
+  </content>
+</ScrollPane>
